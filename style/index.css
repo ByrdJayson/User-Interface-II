@@ -64,7 +64,7 @@ font-size: 62.5%;
 body {
 font-size: 1.6rem;
 line-height: 1.5;
-color: #4f4f4f;
+color: black;
 margin: .5rem;
 
 }
@@ -89,8 +89,9 @@ margin: 2rem;
 }
 
 nav {
-    margin: 2.1rem;
+    margin: 2.5rem;
     display: flex;
+    margin-bottom: .75rem;
 }
 
 nav a {
@@ -100,5 +101,22 @@ nav a {
 }
 
 a.nav-button {
-    margin-top:1rem;
+    padding: 1rem;
+    background-color: white;
+    color: black;
+}
+
+.active {
+color:white;
+background-color: black;
+padding: 1rem;
+}
+
+/* MAIN SECTION STYLING */
+
+ section div {
+    display: flex;
+    flex-flow: row wrap;
+    align-content: space-between;
+    width: 50%;
 }
