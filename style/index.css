@@ -65,6 +65,7 @@ body {
 font-size: 1.6rem;
 line-height: 1.5;
 color: #4f4f4f;
+margin: .5rem;
 
 }
 
@@ -72,3 +73,32 @@ h1 {
     font-size: 5rem;
 }
 
+a {
+    text-decoration: none;
+    color: darkslategrey;
+}
+/* HEADER SECTION STYLES */
+
+header {
+    width: 100%;
+    background-color: lightgray;
+}
+
+header h1 {
+margin: 2rem;
+}
+
+nav {
+    margin: 2.1rem;
+    display: flex;
+}
+
+nav a {
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+}
+
+a.nav-button {
+    margin-top:1rem;
+}
