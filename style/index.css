@@ -65,13 +65,12 @@ body {
 font-size: 1.6rem;
 line-height: 1.5;
 color: black;
-margin: .5rem;
 font-family: arial;
 
 }
 
 h1 {
-    font-size: 5rem;
+    font-size: 3rem;
 }
 
 a {
@@ -85,14 +84,15 @@ header {
     background-color: lightgray;
 }
 
-header h1 {
-margin: 2rem;
+h1 {
+    padding: 1rem;
 }
 
 nav {
     margin: 2.5rem;
     display: flex;
     margin-bottom: .75rem;
+    width: 50%;
 }
 
 nav a {
@@ -101,57 +101,63 @@ nav a {
     align-items: center;
 }
 
-a.nav-button {
-    padding: 1rem;
-    background-color: white;
-    color: black;
+nav button {
+    padding: .75rem;
+    margin-bottom: 1rem;
 }
 
 .active {
-color:white;
-background-color: black;
-padding: 1rem;
+    background-color: black;
+    color: #fff;
 }
 
-/* MAIN SECTION STYLING */
+.projects {
+    border: 1px solid black;
+    color: #fff;
+    background-color: black;
+}
 
-.top-left {
+
+.main {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+}
+
+.right-main {
+    display: flex;
+    flex-flow: column wrap;
+    width: 50%;
+    padding: 3rem;
+    
+}
+
+.right-main p {
     width: 40%;
-    margin: .75rem;
 }
 
-.top-right {
-    width: 25%;
-    display: flex;
-    flex-direction: column;
-    text-align: flex-start;
-    justify-content: space-between;
-
-
+.right-main button {
+    width: 50%;
 }
 
-.main-section {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.right-main h3 {
+    width: 50%;
 }
 
-.gallery {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-between;
-    padding: 1rem;
-}
+
+
 
 footer {
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
     flex-direction: column;
     width: 100%;
     align-items: center;
     background-color: lightgray;
     padding: 2rem;
-    margin-bottom: 0;
+    
 }
 
 footer a {
@@ -162,4 +168,29 @@ footer .contact-footer {
     background-color: #fff;
     border: 2px solid black;
     padding: 1rem 2rem;
+    font-weight: normal;
+}
+
+footer a {
+    font-weight: bold;
+}
+
+.projects {
+    width: 40%;
+}
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 2em;
+
+}
+
+.gallery {
+    text-align: center;
+}
+
+a.unique {
+    width: 100%;
+    background-color: lightgray;
 }
