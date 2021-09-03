@@ -52,7 +52,7 @@ table {
     padding: 0;
     margin: 0;
     max-width: 100%;
-    border: 1px solid gray;
+    /* border: 1px solid gray; */
 }
 
 /* GENERAL STYLES */
