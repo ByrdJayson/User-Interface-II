@@ -197,3 +197,52 @@ a.unique {
     width: 100%;
     background-color: lightgray;
 }
+
+
+@media screen and (max-width: 800px) {
+    body {
+      display: flex;
+      flex-flow: column
+    }
+
+    header {
+        display: flex;
+        justify-content: center;
+    }
+
+    nav {
+        margin: 0;
+        padding: 0;
+    }
+
+    section {
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .main {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .right-main {
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .right-main p {
+        width: 100%;
+        align-items: center;
+        border: 3px solid red;
+    }
+
+    .right-main a {
+        width: 40%;
+        padding: 0;
+        margin: 0;
+    }
+  }
