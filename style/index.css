@@ -210,6 +210,7 @@ a.unique {
         display: flex;
         justify-content: center;
         width: 100%;
+        background-color: #fff;
     }
 
     nav {
@@ -288,6 +289,10 @@ a.unique {
         display: none;
     }
 
+    .main img {
+        width: 90%;
+        margin-top: 1rem;
+    }
    
 
   }
