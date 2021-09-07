@@ -255,13 +255,19 @@ a.unique {
     .right-main p {
         width: 100%;
         align-items: center;
-        border: 3px solid red;
+        margin-top: 1rem;
+        text-align: center;
+        
     }
 
     .right-main a {
-        width: 40%;
-        padding: 0;
+        width: 60%;
+        padding: 1rem;
         margin: 0;
+        border: 3px solid black;
+        text-align: center;
+        background-color: #fff;
+
     }
     
     .right-main h3 {
@@ -293,6 +299,12 @@ a.unique {
         width: 90%;
         margin-top: 1rem;
     }
-   
+    
+    h3 {
+        text-align: center;
+        font-weight: bold;
+        padding-bottom: 2rem;
+        text-transform: uppercase;
+    }
 
   }
