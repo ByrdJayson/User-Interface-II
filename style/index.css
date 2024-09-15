@@ -1,1 +1,199 @@
 /* Add CSS styling here */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    max-width: 100%;
+    /* border: 1px solid gray; */
+}
+
+/* GENERAL STYLES */
+
+html {
+font-size: 62.5%;
+}
+
+body {
+font-size: 1.6rem;
+line-height: 1.5;
+color: black;
+font-family: arial;
+
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+a {
+    text-decoration: none;
+    color: darkslategrey;
+}
+/* HEADER SECTION STYLES */
+
+header {
+    width: 100%;
+    background-color: lightgray;
+}
+
+h1 {
+    padding: 1rem;
+}
+
+nav {
+    margin: 2.5rem;
+    display: flex;
+    margin-bottom: .75rem;
+    width: 50%;
+}
+
+nav a {
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+}
+
+nav button {
+    padding: .75rem;
+    margin-bottom: 1rem;
+}
+
+.active {
+    background-color: black;
+    color: #fff;
+}
+
+.projects {
+    border: 1px solid black;
+    color: #fff;
+    background-color: black;
+}
+
+
+.main {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+}
+
+.right-main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    padding:2rem;
+    
+}
+
+.right-main p {
+    width: 50%;
+}
+
+.right-main button {
+    width: 50%;
+}
+
+.right-main h3 {
+    width: 50%;
+}
+
+
+
+
+
+
+footer {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    background-color: lightgray;
+    padding: 2rem;
+    
+}
+
+footer a {
+    padding:1rem;
+}
+
+footer .contact-footer {
+    background-color: #fff;
+    border: 2px solid black;
+    padding: 1rem 2rem;
+    font-weight: normal;
+}
+
+footer a {
+    font-weight: bold;
+}
+
+.projects {
+    width: 40%;
+}
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 2em;
+
+}
+
+.gallery {
+    text-align: center;
+}
+
+a.unique {
+    width: 100%;
+    background-color: lightgray;
+}
